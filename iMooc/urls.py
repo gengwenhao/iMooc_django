@@ -13,15 +13,13 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
+from django.conf import settings
 from django.conf.urls import url, include
-from django.contrib import admin
-from django.views.generic import TemplateView
 from django.views.static import serve
 import xadmin
 
 from user.views import *
 from organization.views import *
-from iMooc.settings import MEDIA_ROOT, STATIC_ROOT
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
@@ -44,9 +42,9 @@ urlpatterns = [
     # 用户url配置
     url(r'^users/', include('user.urls', namespace='user')),
     # 配置上传文件的访问处理函数
-    url(r'^media/(?P<path>.*)', serve, {'document_root': MEDIA_ROOT}),
+    url(r'^media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT}),
     # 配置静态资源的访问处理函数
-    url(r'^static/(?P<path>.*)', serve, {'document_root': STATIC_ROOT}),
+    url(r'^static/(?P<path>.*)', serve, {'document_root': settings.STATIC_ROOT}),
 ]
 # 全局404页面配置
 hander404 = 'users.views.page_not_found'

@@ -11,6 +11,13 @@ django = "==1.10.3"
 django-pure-pagination = "*"
 django-crispy-forms = "*"
 django-simple-captcha = "*"
+pymysql = "*"
+future = "*"
+django-formtools = "*"
+django-reversion = "*"
+xlwt = "*"
+xlsxwriter = "*"
+"httplib2" = "*"
 
 
 [dev-packages]

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "241f10c23f1ebb7b9df24a42dbcefbbad9f7165f81fa6fbe418d1466d41d3ad2"
+            "sha256": "b2c627e14b2a02e4985dc4c62dd25a05aba08f4d2226ac8d6bdefb3219d8015c"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -41,6 +41,13 @@
             ],
             "version": "==1.7.0"
         },
+        "django-formtools": {
+            "hashes": [
+                "sha256:cb2bd7c29c2104278e5a0e76f7ff256b9570acf11485d547ee0c1b35347359fb",
+                "sha256:7703793f1675aa6e871f9fed147e8563816d7a5b9affdc5e3459899596217f7c"
+            ],
+            "version": "==2.1"
+        },
         "django-pure-pagination": {
             "hashes": [
                 "sha256:02b42561b8afb09f1fb6ac6dc81db13374f5f748640f31c8160a374274b54713"
@@ -53,12 +60,31 @@
             ],
             "version": "==0.2.0"
         },
+        "django-reversion": {
+            "hashes": [
+                "sha256:f27249218ac901ec219869c9618e01d8c30436a4e8da1a64fcb652209b11e47d",
+                "sha256:2e105a2c74462ce7de97afdcfb187f27b88a547dda1216a8aab964d32a882edf"
+            ],
+            "version": "==2.0.13"
+        },
         "django-simple-captcha": {
             "hashes": [
                 "sha256:8dc9ebcccd97b3b1db7549474a83d6cf70d2932c14895d44e638c40e85b4941e",
                 "sha256:d6fd36e8ba4215908f8698ae0ee40ed2591f7ce544f6eb1a2c84a84ea55e4b0b"
             ],
             "version": "==0.5.6"
+        },
+        "future": {
+            "hashes": [
+                "sha256:e39ced1ab767b5936646cedba8bcce582398233d6a627067d4c6a454c90cfedb"
+            ],
+            "version": "==0.16.0"
+        },
+        "httplib2": {
+            "hashes": [
+                "sha256:e404d3b7bd86c1bc931906098e7c1305d6a3a6dcef141b8bb1059903abb3ceeb"
+            ],
+            "version": "==0.10.3"
         },
         "pillow": {
             "hashes": [
@@ -106,12 +132,33 @@
             ],
             "version": "==5.0.0"
         },
+        "pymysql": {
+            "hashes": [
+                "sha256:04fa19fad017fdb21394fad2878c1d6bd346959d4fbfd1b66050a09fc636a321",
+                "sha256:32da4a66397077d42908e449688f2ec71c2b18892a6cd04f03ab2aa828a70f40"
+            ],
+            "version": "==0.8.0"
+        },
         "six": {
             "hashes": [
                 "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb",
                 "sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"
             ],
             "version": "==1.11.0"
+        },
+        "xlsxwriter": {
+            "hashes": [
+                "sha256:279220b1c58cef2d35b8fd99030945a740a4fde65c0c8598b34177f7e2cd8ffc",
+                "sha256:a26bbbafff88abffce592ffd5dfaa4c9f08dc44ef4afbf45c70d3e270325f856"
+            ],
+            "version": "==1.0.2"
+        },
+        "xlwt": {
+            "hashes": [
+                "sha256:a082260524678ba48a297d922cc385f58278b8aa68741596a87de01a9c628b2e",
+                "sha256:c59912717a9b28f1a3c2a98fd60741014b06b043936dcecbc113eaaada156c88"
+            ],
+            "version": "==1.3.0"
         }
     },
     "develop": {

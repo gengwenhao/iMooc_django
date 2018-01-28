@@ -26,7 +26,7 @@ sys.path.insert(0, os.path.join(PROJECT_DIR, 'extra_apps'))
 SECRET_KEY = '_oiz6rpq4g0kd6!pcd)-=zf!uf6y)w(8e0+&0+-ejfhev1dz_3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 AUTH_USER_MODEL = 'user.UserProfile'
 
@@ -122,9 +122,6 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
-
-TEMPLATE_DIRS = (os.path.join(PROJECT_DIR, 'templates'),)
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(PROJECT_DIR, 'media')
