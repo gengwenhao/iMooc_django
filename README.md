@@ -4,6 +4,12 @@
 
 ![](https://s1.ax1x.com/2018/01/28/pvX7RS.png)
 
+> 关于配置：
+在路径iMooc_django/iMooc/config中, 可以详细修改你的配置脚本
+*   settings_db.py 数据库配置
+*   settings_local.py 开发配置
+*   settings_product.py 生产环境配置
+
 > 关于安装：
 
 #### 安装现代人类使用包管理工具pipenv
@@ -22,6 +28,7 @@ pipenv install
 #### 生成数据库迁移文件
 ```python
 python manage.py migrate
+```
 #### 启动项目
 ```python
 python manage.py runserver 0:8080
