@@ -1,8 +1,7 @@
 # Django开发的教学网站
-> 预览
+> ## 首页
 
-## 首页
-![](https://s1.ax1x.com/2018/01/28/pvXTG8.md.png)
+
 
 ![](https://s1.ax1x.com/2018/01/28/pvX7RS.png)
 
