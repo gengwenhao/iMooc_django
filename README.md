@@ -19,9 +19,12 @@
 ```python
 pipenv install
 ```
+#### 生成数据库迁移文件
+```python
+python manage.py migrate
 #### 启动项目
 ```python
-python3 manage.py runserver 0:8080
+python manage.py runserver 0:8080
 ```
 
 (访问浏览器localhost:8080端口可以查看)
