@@ -7,7 +7,7 @@
 > 关于配置：
 在路径iMooc_django/iMooc/config中, 可以详细修改你的配置脚本
 *   settings_db.py 数据库配置
-*   settings_local.py 开发配置
+*   settings_local.py 开发环境配置
 *   settings_product.py 生产环境配置
 
 > 关于安装：
@@ -37,5 +37,10 @@ python manage.py runserver 0:8080
 (访问浏览器localhost:8080端口可以查看)
 
 > 关于部署：
+```python
+settings.py中 DEBUG = True -> DEBUG = False
+```
+
+#### Nginx配置
 
 可以参考 ![自强学堂Django部署Nginx](https://code.ziqiangxuetang.com/django/django-nginx-deploy.html)
