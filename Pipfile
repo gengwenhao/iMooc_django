@@ -1,0 +1,18 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+django = "==1.10.3"
+django-pure-pagination = "*"
+django-crispy-forms = "*"
+django-simple-captcha = "*"
+
+
+[dev-packages]
+
+pipreqs = "*"
