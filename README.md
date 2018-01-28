@@ -6,12 +6,24 @@
 
 > 关于安装：
 
+#### 安装现代人类使用包管理工具pipenv
 ```shell
- pip install pipenv -i https://pypi.douban.com/simple
- cd iMooc_django
- pipenv install
- python3 manage.py runserver 0:8080
+#pip install pipenv -i https://pypi.douban.com/simple
 ```
+#### 进入目录
+```shell
+#cd iMooc_django
+
+```
+#### 使用pipenv安装依赖
+```python
+pipenv install
+```
+#### 启动项目
+```python
+python3 manage.py runserver 0:8080
+```
+
 (访问浏览器localhost:8080端口可以查看)
 
 > 关于部署：
