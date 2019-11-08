@@ -7,7 +7,7 @@ name = "pypi"
 
 [packages]
 
-django = "==1.10.3"
+django = "==1.11.23"
 django-pure-pagination = "*"
 django-crispy-forms = "*"
 django-simple-captcha = "*"
